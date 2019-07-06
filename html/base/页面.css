@@ -1,0 +1,28 @@
+.page-top{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+}
+.page-left{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float: left;
+    padding: 5px;
+}
+.page-right{
+    width: 350px;
+    float: left;
+    padding: 10px;
+}
+ .page-bottom{
+     background-color: black;
+     color: white;
+     clear: both;
+     text-align: center;
+     padding: 5px;
+
+ }
