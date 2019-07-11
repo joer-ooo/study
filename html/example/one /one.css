@@ -1,3 +1,10 @@
+.border{
+    margin: 0px;
+    
+}
+body{
+    margin: 0px;
+}
 .top{
     background-color: #e9331b;
     width:100%;
@@ -56,6 +63,37 @@
 .float{
     float:left;
 }
-.top-image{
-background-image: url()
+
+
+.center{
+    
+    border-bottom: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 450px;
+    background:#ddd url(image/mainback.jpg) repeat-y;
+    
+
+}
+.hid{
+    width: 900px;
+    padding: 0px 15px;
+    margin: 0 auto;
+
+}
+
+.center2{
+    width: 900px;
+    background-color: grey;
+    padding: 25px;
+    
+    
+
+
+}
+
+.center2-red{
+    background-color: #e9331d;
+    width: 120px;
+    text-align: center;
 }
