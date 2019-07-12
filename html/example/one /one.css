@@ -106,7 +106,7 @@ body{
 
 }
 .two p{
-    font-style: italic;
+  
     font-style: italic;
     font-size: 110%;
     line-height: 200%;
@@ -152,7 +152,8 @@ body{
 }
 .bottom-a img{
 
-   padding-left: 80px;
+   display: block;
+   margin: 0 auto;
   
 }
 .bottom-a p{
@@ -163,10 +164,233 @@ body{
     width: 900px;
     background-color: aquamarine;
     margin: 0 auto;
-}
-
-.boottom-two img{
-    adding-left: 270px;
 
 }
 
+.bottom-two img{
+    display: block;
+     margin: 0 auto;
+    background-color: aquamarine;
+}
+.bottom-b{
+display: block;
+margin: 0 auto;
+}
+
+.bottom-b-left{
+ float: left;
+ width: 270px;
+ background-color: aquamarine;
+ padding: 15px;
+
+}
+.bottom-b-left h2,
+.bottom-b-right h2
+
+{
+    text-align: center;
+    font-weight: bold;
+    line-height: 160%;
+}
+.bottom-b-bottom{
+    float: left;
+    width: 270px;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.bottom-b-right{
+    float: left;
+    width: 270px;
+    background-color: aquamarine;
+    padding: 15px;
+
+
+}
+
+
+
+.bottom-b-bottom img
+{
+ display: block;
+ margin: 0 auto;
+}
+
+.bottom-b-bottom p{
+    text-align: center;
+    font-size: 180%;
+    padding-top: 25px;
+}
+
+
+
+
+.bottom-d{
+    width: 900px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    clear: both;
+}
+
+.bottom-d h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.bottom-d img{
+   margin: 0 auto;
+   display: block;
+}
+
+.bottom-d-float{
+    
+    display: table;
+     margin: 0 auto;
+}
+
+
+.bottom-d-left-a{
+    margin-bottom: 50px;
+}
+
+.bottom-d-left-a a,.bottom-d-right a{
+    color: red;
+}
+.bottom-d-left{
+    width: 240px;
+    float: left;
+    border: 1px solid rgb(59, 58, 58);
+    padding: 15px;
+    margin-right: 20px;
+}
+.bottom-d-bottom{
+width: 240px;
+  float: left;
+  border: 1px solid rgb(59, 58, 58);
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.bottom-d-right{
+width: 240px;
+float: left;
+border: 1px solid rgb(59, 58, 58);
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.bottom-d-bottom img{
+    max-width: 100%;
+   margin: 0 auto;
+   display: block;
+
+}
+
+.bottom-d-right-bottom{
+    margin-bottom: 50px;
+}
+
+.wedding-right img{
+    max-width: 100%;
+    margin: 0 auto;
+   display: block;
+}
+
+.rsvp{
+    width: 900px;
+    background-color: #84c8f0;
+   margin-top: 50px;
+    clear: both;
+    
+}
+.rsvp h2{
+    font-size:150%;
+    text-align: center;
+}
+.rsvp img{
+    margin-left: 270px;
+    margin-bottom: 15px;
+
+}
+.rsvp-a{
+    display: block;
+}
+.rsvp-left{
+width: 25%;
+height: 60px;
+background-color: #e9331d;
+padding: 0px;
+
+float: left;
+display: block;
+
+}
+
+.rsvp-bottom{
+    width: 50%;
+    float: left;
+  
+    background-color: rgb(241, 227, 227);
+    display: block;
+    
+
+  
+}
+
+
+.rsvp-bottom p{
+  font-size: 110%;
+  font-style: italic;
+  word-spacing: 3px;
+  line-height: 25px;
+ 
+}
+.ab{
+    margin:15px;
+
+}
+.rsvp-right{
+    width: 25%;
+    float: right;
+    display: block;
+
+   height: 60px;
+   background-color: #e9331d;
+}
+
+
+.copy{
+    margin-top: 600px;
+}
+.submit{
+    list-style-type: none;
+}
+
+.ab{
+ 
+    margin-bottom:20px;
+}
+.ab label{
+    width:30%;
+    
+    text-align:left;
+    float:left;
+}
+.ab input[type=text]{
+    width:70%;
+    height:30px;
+    padding:0;
+    border-width:0;
+    display:inline-block;
+}
+.ab input[type=submit]{
+    margin-left:30%;
+    width:100px;
+    text-align:center;
+    background-color:red;
+    border-width:0;
+    height:30px;
+    line-height:30px;
+    color:#fff
+    
+}
