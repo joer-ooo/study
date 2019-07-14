@@ -1,0 +1,495 @@
+.outlay{
+    width:100%;
+    margin: 0 auto;
+
+
+}
+body{
+    margin:0;
+}
+
+
+.top{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e9331b;
+}
+
+
+.center{
+    margin:0 auto;
+    height: 50px;
+    width: 900px;
+    
+}
+
+.left{
+width: 170px;
+height: 50px;
+float: left;
+
+}
+
+
+.left a[href]{
+    color:white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.right{
+    float: right;
+    height: 50px;
+    width: 390px;
+}
+
+
+
+.right1 li{
+    float: left;
+}
+
+.right1 ul{
+   list-style-type: none;
+}
+
+
+.right1 a[href="#"]{
+    color: white;
+    padding:0px 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.home{
+    clear: both;
+    background:#ddd url(image/mainback.jpg) repeat-y;
+    height: 465px;
+    
+    border-bottom:1px solid #000;
+}
+
+.home-center{
+   margin: 0 auto;
+   width: 900px;
+   height: 345px;
+   padding:60px;
+}
+
+.home-float-left{
+   width: 580px;
+   float: left;
+}
+.home-float-right{
+  width:300px;
+  float: right;
+}
+
+.home-left{
+  background-color: #ddd;
+  padding: 30px;
+  height: 270px;
+  width: 500px;
+  
+}
+.home-left h3{
+   margin: 0;
+   color: white;
+   background-color: #e9331b;
+   width: 120px;
+   font-size: 90%;
+   text-align: center;
+   border-radius:25px;
+}
+
+.home-left h4{
+     font-size: 200%;
+     margin: 20px 0px; 
+}
+
+.home-left p{
+     font-size: 110%;
+     font-style: oblique;
+     word-spacing: 3px;
+     line-height: 39px;
+}
+
+.home-float-right{
+  width: 300px;
+  height: 300px;
+  float: right;
+ 
+}
+
+.home-right{
+  width: 300px;
+  background-color: #e9331b;
+  height: 300px;
+
+}
+
+.home-right-heat{
+   height: 50%;
+
+}
+
+.home-right p{
+  text-align: center;
+  font-size: 250%;
+  color:white;
+  font-weight: bold;
+  height: 50%;
+}
+.about{
+  clear: both;
+  width: 100%;
+  padding:20px;
+}
+
+
+.about-center{
+  width: 530px;
+  margin: 0 auto;
+  background-color: rgb(150, 243, 113);
+  padding:15px;
+
+}
+
+.about-center h2{
+   text-align: center;
+   margin:0px;
+ 
+}
+.about-center img{
+  margin:0 auto;
+  display: block;
+}
+.about-center p{
+font-size: 130%;
+font-style: oblique;
+line-height: 30px;
+}
+
+
+
+
+
+
+.about-center2{
+   width: 900px;
+   margin:0 auto;
+   background-color: aqua;
+   height: 362px;
+   
+   
+}
+
+.about-center2 img{
+   margin:0 auto;
+   display: block;
+   
+
+}
+
+.about-float{
+    width:900px;
+    margin:0 a ;
+    
+}
+
+
+
+.about-box-left{
+  width:300px;
+  float: left;
+}
+
+
+.about-box-center{
+    width:300px;
+    float: left;
+}
+
+.about-box-right{
+    width:300px;
+    float: left;
+}
+
+
+
+
+
+
+.about-float-left{
+   margin: 20px;
+}
+
+
+.about-float-left h2,.about-float-right h2{
+text-transform: uppercase;
+text-align: center;
+font-size: 30px;
+}
+.about-float-left p,.about-float-right p{
+ font-style: oblique;
+ line-height: 30px;
+ word-spacing: 5px;
+}
+
+.about-float-center{
+    margin: 20px;
+
+}
+
+.about-float-center p{
+   text-align: center;
+   font-size: 25px;
+}
+
+.about-float-right{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.wedding-box-left{
+    width: 300px;
+    float: left;
+}
+
+.wedding-box-center{
+    width: 300px;
+    float: left;
+}
+
+.wedding-box-right{
+    width: 300px;
+    float: left;
+}
+
+
+
+
+
+.wedding-center{
+  clear: both;
+  width: 100%;
+
+}
+
+.wedding-center h2{
+    text-align: center;
+    font-size: 40px;
+
+}
+.wedding-center img{
+margin: 0 auto;
+display: block;
+
+}
+
+.wedding-float{
+width: 900px;
+margin: 0 auto;
+}
+
+
+.wedding-box-center{
+  width:300px;
+ 
+  float: left;
+
+}
+
+.wedding-box-left{
+width:300px;
+
+float: left;
+}
+.wedding-box-right{
+    width:300px;
+  
+    float: left;
+}
+
+
+
+
+
+
+.wedding-float-left{
+    width: 230px;
+    padding:15px;
+   
+    background-color: aquamarine;
+    
+
+}
+
+.wedding-float-center{
+    width: 230px;
+    padding:15px;
+   
+    background-color: aquamarine;
+}
+
+
+.wedding-float-right{
+    width: 230px;
+    padding:15px;
+   
+    background-color: aquamarine;
+}
+
+
+
+
+.wedding-float-left1{
+margin-bottom:80px;
+
+}
+
+.wedding-center a{
+    color: red;
+
+}
+
+.wedding-float-right1{
+    margin-bottom:80px;
+
+}
+
+
+
+
+.wedding-float-center img{
+    width: 200px;
+ padding: 5px;
+ border: 1px solid #ddd;
+ background-color: white;
+}
+
+
+
+.wedding-float-right2 img{
+width: 200px;
+ padding: 5px;
+ border: 1px solid #ddd;
+ background-color: white;
+
+ 
+}
+
+
+
+
+.rsvp-center{
+    clear: both;
+    width: 100%;
+
+
+}
+
+.rsvp-center h2{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+
+}
+
+.rsvp-center img{
+margin: 0 auto;
+display: block;
+}
+
+.rsvp-float{
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.rsvp-box-left{
+width: 225px;
+float: left;
+}
+
+.rsvp-box-center{
+    width: 450px;
+    float: left;
+}
+
+.rsvp-box-right{
+    width:225px;
+    float: left;
+}
+
+.rsvp-float-left,.rsvp-float-right{
+    width: 50px;
+    height: 50px;
+    background-color:#e9331b;
+    position: relative;
+       left:45%;
+       top:45%
+
+}
+
+
+.rsvp-float-center{
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: rgb(245, 240, 240);
+    margin-bottom:30px;
+
+}
+
+
+.a{
+  
+    width: 350px;
+    margin: 15px;
+    height: 30px;
+}
+
+
+.a label{
+    
+    width: 30%;
+    float: left;
+    font-size: 20px;
+}
+
+
+.a input[type=text]{
+
+width: 50%;
+ height: 30px;
+}
+   
+
+.b input[type=submit]{
+
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 15px;
+
+ 
+}
+
+.b{width: 15%;
+    margin: 20px;
+    margin-left: 30%;
+    height: 30px;}
