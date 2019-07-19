@@ -84,22 +84,11 @@
     text-transform: capitalize;
 }
 
-.image{
-    width: 900px;
-    margin: 0 auto;
-}
 
 
-.image ul{
-    list-style-type: none;
-}
 
-.image li{
-    float: left;
-    display: block;
-    aria-hidden:"true";
-}
 
-.image img{
 
-}
+
+
+
