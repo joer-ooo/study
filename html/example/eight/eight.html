@@ -7,15 +7,17 @@
             <style type="text/css">
             
             </style>
-          <link rel="stylesheet" href="flexslider.css">
-          <script type="text/javascript" src="../../base/jquery.min.js"></script>
-          <script type="text/javascript" src="jquery.flexslider-min.js"></script>
+        <link rel="stylesheet" href="../../base/幻灯片/woocommerce-FlexSlider-690832b/flexslider.css">
+
+         <script type="text/javascript" src="../../base/jquery.min.js"></script>
+          <script type="text/javascript" src="../../base/幻灯片/jquery.flexslider-min.js"></script>
             <script type="text/javascript">
-         
-            // Can also be used with $(document).ready()
+// Can also be used with $(document).ready()
 $(window).load(function() {
   $('.flexslider').flexslider({
-   
+    animation: "slide",
+    controlsContainer: $(".custom-controls-container"),
+    customDirectionNav: $(".custom-navigation a")
   });
 });
             </script>
@@ -43,23 +45,34 @@ $(window).load(function() {
                 </div>
 
             </div>
+            <div class="photos">
+              <h2>photos</h2>
+              <img src="image/border.png">
+            </div>
+              <div class="flexslider"  style="width:900px;  margin: 0 auto;" >
+                  <ul class="slides">
+                    <li>
+                      <img src="image/1.jpg" />
+                    </li>
+                    <li>
+                      <img src="image/2.jpg" />
+                    </li>
+                    <li>
+                      <img src="image/3.jpg" />
+                    </li>
+                    <li>
+                      <img src="image/4.jpg" />
+                    </li>
+                  </ul>
+              </div>
 
-            <div class="flexslider" style="width:700px;margin:0 auto;">
-                    <ul class="slides">
-                      <li>
-                        <img src="image/1.jpg" />
-                      </li>
-                      <li>
-                        <img src="image/2.jpg" />
-                      </li>
-                      <li>
-                        <img src="image/3.jpg" />
-                      </li>
-                      <li>
-                        <img src="image/4.jpg" />
-                      </li>
-                    </ul>
-                  </div>
-            
+                <div class="custom-navigation">
+                  <a href="#" class="flex-prev">Prev</a>
+                  <div class="custom-controls-container"></div>
+                  <a href="#" class="flex-next">Next</a>
+                </div>
+
+
+                
         </body>
     </html>
