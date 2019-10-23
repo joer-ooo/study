@@ -1,0 +1,59 @@
+.a{
+    background-color: rgb(151, 182, 88);
+    height: 340px;
+}
+
+  
+
+
+
+.b a{
+text-transform: uppercase;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+.ba{
+  margin-top:-180px;
+}
+
+
+
+
+.c h4{
+   
+    color: white;
+    line-height: 50px;
+    
+
+}
+
+.cca{
+   
+   top: 40px;
+  
+   position: absolute;
+   width:px;
+    
+
+}
+
+.cc{
+    background-color: rgb(151, 182, 88);
+    height: 50px;
+    width: 370px;
+   
+    
+}
+.c p{
+    color: white;
+    text-align: left;
+}
+
+
+.carousel-inner img{
+    width: 100%;
+    height:100%;
+}
