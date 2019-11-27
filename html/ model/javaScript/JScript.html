@@ -104,7 +104,6 @@ function myFunction(){
 
 
 
-
 var i;
 var cars=new Array();
 cars[0]="saab";
@@ -116,7 +115,8 @@ for(i=0;i<cars.length;i++)
     document.write(cars[i]+"<br>")
 }
 
-   
+
+
 
 
 
@@ -136,11 +136,366 @@ var person={
     id:5566,
     funllName:function()
     {
-        return this.firstName+""+this.lastName;
+        return this.firstName+" "+this.lastName;
     }
 };
 document.getElementById("demo").innerHTML=person.fullName();
 <p id="demo"></p>
+
+
+
+
+
+取模数(余数)
+
+function myFunctionn(){
+    var x=5;
+    var y=x%2;
+    var demop=document.getElementBYId("demo");
+    demop.innerHTML="y="+y;
+    
+}
+
+
+<button type="text" onclick="myFunction()">点我</button>
+<p id="demo"></p>
+
+
+
+
+
+function myFunction(){
+    var y=5;
+	// var x=++y;
+	// y=y+1; x=y;
+	//var x=y++;
+	// x=y; y=y+1;
+	//var x=--y;
+	//y=y-1;x=y;
+	var x=y--;
+    //x=y;y=y-1;
+    
+    var demop=document.getElementById("demo");
+    demop.innerHTML="x="+x+",y="+y;
+
+}
+ 
+
+<button type="text" onclick="myFunction()">点我</button>
+<p id="demo"></p>
+
+
+
+
+function myFunction(){
+    var age,voteable;
+    age=document.getElementById("age").value;
+    voteable=(age<18)?"年龄太小":“年龄已达到”;
+    document.getElementById("demo").innerHTML=voteable;
+}
+
+年龄: <input type="text" id="age" value="18">
+<button type="text" onclick="myFunction()">点击我</button>
+<p id="demo"></p>
+
+
+
+
+
+
+
+
+function myFunction(){
+    x="";
+    var time=new Date().getHours();
+    if(time<10){
+      x="Good morning";
+    }
+    else if(time>10 && time<20){
+        x="Good day";
+    }
+    else{
+        x="Good evening";
+    }
+    document.getElementById("demo").innerHTML=x;
+}
+<p>如果时间早于20点,会获得问候“Good day".</p>
+<button type="text" onclick="myFunction()">点击</button>
+<p id="demo"></p>
+
+
+myFunction:
+var x;
+var d=new Date().getDay();
+switch(d){
+   case 0 :x="星期日";
+   break;
+   case 6 :x="星期六";
+   break;
+   default:x="周末愉快";
+}
+document.getElementById("demo").innerHTML=x;
+
+<p id="demo"></p>
+
+
+
+
+
+myFunction:
+cars=["BMW","Volvo","Saab","Ford"];
+//for(var i=0;i<cars.length;i++){
+    document.write(cars[i]+"</br>");
+}
+for(var i=0,l=cars.length;i<l;i++){
+    document.write(cars[i]+"</br>")
+}
+
+
+<button type="text" onclick="myFunction()">点我</button>
+<p id="demo"></p>   
+
+
+cars=["BMW","Volvo","Saab","Ford"];
+var i=2,l=cars.length;
+	for(;i<l;){
+		document.write(cars[i]+"</br>");
+		i++;
+    }
+    
+
+
+
+
+
+function myFunction(){
+    var x="",i=0;
+    for(i=0;i<10;i++){
+    if(i==3){
+      // break;
+         continue;
+    }
+    x=x+"该数字为"+i+"</br>";
+    
+  }
+  document.getElementById("demo").innerHTML=x;  
+
+}
+
+<button type="text" onclick="myFunction">点我</button>
+<p id="demo"></p>
+ 
+
+
+
+
+
+document.getElementById("demo").innerHTML = 
+    typeof "john" + "<br>" +                      //string
+    typeof 3.14 + "<br>" +                        //number
+    typeof NaN + "<br>" +                         //number
+    typeof false + "<br>" +                      //boolean
+    typeof [1,2,3,4] + "<br>" +                  //object
+    typeof {name:'john', age:34} + "<br>" +     //object
+    typeof new Date() + "<br>" +               //object
+    typeof function () {} + "<br>" +           //function
+    typeof myCar + "<br>" +                   //undefined
+    typeof null;                              //null
+
+
+
+var fruits=["banana","orange","apple"];
+
+document.getElementById("demo").innerHTML=isArray(fruits);
+
+function isArray(myArray){
+    return myArray.constructor.tostring().indexof("Array")>-1;
+}
+
+//true
+
+
+
+
+var myDate=new Date();
+
+document.getElementById("demo").innerHTML=isDate();
+
+function isDate(myDate){
+    return myArray.constructor.tostring().indexof("Date")>-1;
+}
+
+//true
+
+
+
+
+
+var person=[];
+person[0]="john";
+person[1]="dose";
+person[3]="34";
+document.getElementByid("demo").innerHTML=person[0]+""+person.length;
+
+<p id="demo"></p>
+
+john 3
+
+
+
+
+
+
+
+function validateForm(){
+    var x=document.forms["myform"]["fname"].value;
+    if(x==null||x==""){
+        alert:"请输入名字";
+        return false;
+    }
+}
+
+<form action=".php" name="myform" method="post"
+onsubmit="return validateForm()">
+名字:<input type="text" name="fname" >
+<input type="button" value="提交">
+
+</form>
+
+
+
+
+
+
+
+
+
+
+function myFunction(){
+    var x,text;
+    x=document.getElementById("numb").value;
+    if(isNaN(x) ||x<1 ||x>10){
+        text="输入错误"
+    }
+    else{
+        text="输入正确"
+    }
+    document.getElementById.innerHTML=text;
+}
+
+<input name="numb" >
+<button type="submit" onclick="myFunction">提交</button>
+
+
+
+
+  
+
+function myFunction() {
+    var x=document.getElementById("inp").value;
+    if(x.checkdity()==false){
+        document.getElementById("demo").innerHTML=x.validationMessage;
+    }
+    else{
+        document.getElementById("demo").innerHTML="输入正确";
+    }
+}
+
+<input type="number" id="inp" max="300" min="100" required>
+<button onclick="myFunction">验证</button>
+<p id="demo"></p>
+
+
+
+
+
+
+
+
+
+
+var txt='{"sites":['+ '{"namne":"Runoob","url":"www.runoob.com"},'+
+'{"name":"Google","url":"www.google.com"}]}';
+
+
+
+
+
+
+
+var x =document.getElementById("main");
+var y = x.getElementById("p");
+document.write('id="main"元素中的第一段落为'+y[0].innerHTML);
+
+<p>你好世界</p>
+<div id="main">
+    <p>DOM 是非常有用的.</p>
+</div>
+
+
+
+
+
+<p class="intro">你好世界</p>
+
+x=document.getElementByClassName("intro");
+document.write("<p>为class为intro的段落"+x[0].innerHTML+ "</p>");
+
+
+
+
+
+
+
+document.getELementById("myBtn").onclick=function(){displayDate()};
+function displayDate(){
+    document.getElementById("demo").innerHTML=Date();
+}
+
+
+
+
+
+
+
+var para=document.createElement("p");
+var node=document.createTextNode("这是一个新的段落.");
+para.appendChild(node);
+
+var element =document.getElementById("div1");
+element.appendChild(para);
+
+<div id="div1">
+    <p id="p1">这是一个段落</p>
+    <p id="p2">这是另外一个段落</p>
+</div>
+
+
+
+
+
+
+
+
+function myFunction(){
+    var myCollection=document.getElementByTagName("p");
+    var i;
+    if(i=0;i<myCollection.length;i++){
+        myCollection[i].style.color="red";
+    }
+}
+
+<p>hello world</p>
+<p>hello runoob</p>
+<p>点击按钮修改P元素的背景颜色</p>
+<button onclick="myFunction">点我</button>
+
+
+
+
+
+
+
 
 
 
